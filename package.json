@@ -9,12 +9,18 @@
   "author": "okpara thankgod",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1073.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "knex": "^1.0.2",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2"
   }
 }
