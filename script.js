@@ -330,4 +330,4 @@ app.get("/stream", (req, res) => {
     .send();
 })
 
-app.listen(4000 || process.env.PORT ,() =>{console.log("running on port 4000")})
+app.listen(process.env.PORT || 4000  ,() =>{console.log("running on port 4000")})
